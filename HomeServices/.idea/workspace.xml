@@ -1,0 +1,931 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="551206e9-094c-4ff3-a3bd-e9b6cd004770" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/.styleci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/app/Console/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/app/Exceptions/Handler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/app/Http/Controllers/Auth/ConfirmPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/app/Http/Controllers/Auth/ForgotPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/app/Http/Controllers/Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/app/Http/Controllers/DashboardController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/app/Http/Controllers/HomeController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/app/Http/Controllers/LoginController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/app/Http/Controllers/ProductController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/app/Http/Controllers/UserController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/app/Http/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/app/Http/Middleware/Authenticate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/app/Http/Middleware/EncryptCookies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/app/Http/Middleware/PreventRequestsDuringMaintenance.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/app/Http/Middleware/TrimStrings.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/app/Http/Middleware/TrustHosts.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/app/Http/Middleware/TrustProxies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/app/Models/Admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/app/Models/Cart.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/app/Models/Order.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/app/Models/Permission.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/app/Models/Product.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/app/Models/Role.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/app/Models/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/app/Notifications/InvoicePaid.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/app/Providers/AppServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/app/Providers/AuthServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/app/Providers/BroadcastServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/app/Providers/EventServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/app/Providers/RouteServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/artisan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/bootstrap/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/bootstrap/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/config/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/config/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/config/broadcasting.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/config/cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/config/cors.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/config/database.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/config/filesystems.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/config/hashing.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/config/laratrust.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/config/logging.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/config/mail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/config/queue.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/config/sanctum.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/config/services.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/config/session.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/config/view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/database/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/database/factories/UserFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/database/migrations/2021_09_25_061120_create_products_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/database/migrations/2021_09_25_092622_create_cart_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/database/migrations/2021_09_25_092855_create_orders_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/database/migrations/2021_09_25_101238_create_users_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/database/migrations/2021_09_25_124655_create_admins_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/database/migrations/2021_09_28_112030_laratrust_setup_tables.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/database/seeders/AdminSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/database/seeders/DatabaseSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/database/seeders/ProductSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/database/seeders/RolesSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/database/seeders/UserSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/database/seeders/UserTableSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/images/apple-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/images/bg5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/images/bg_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/images/default-avatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/images/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/images/header.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/images/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/images/mike.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/images/now-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/images/now-ui-dashboard.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/public/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/public/web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/css/now-ui-dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/css/now-ui-dashboard.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/css/now-ui-dashboard.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/demo/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/demo/demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/fonts/nucleo-license.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/fonts/nucleo-outline.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/fonts/nucleo-outline.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/fonts/nucleo-outline.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/fonts/nucleo-outline.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/img/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/img/apple-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/img/bg5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/img/default-avatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/img/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/img/header.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/img/mike.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/img/now-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/img/now-ui-dashboard.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/js/core/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/js/core/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/js/core/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/js/now-ui-dashboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/js/now-ui-dashboard.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/js/now-ui-dashboard.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/js/plugins/bootstrap-notify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/js/plugins/chartjs.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/js/plugins/perfect-scrollbar.jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/scss/now-ui-dashboard.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/scss/now-ui-dashboard/_alerts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/scss/now-ui-dashboard/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/scss/now-ui-dashboard/_cards.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/scss/now-ui-dashboard/_checkboxes-radio.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/scss/now-ui-dashboard/_dropdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/scss/now-ui-dashboard/_fixed-plugin.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/scss/now-ui-dashboard/_footers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/scss/now-ui-dashboard/_images.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/scss/now-ui-dashboard/_inputs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/scss/now-ui-dashboard/_misc.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/scss/now-ui-dashboard/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/scss/now-ui-dashboard/_navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/scss/now-ui-dashboard/_nucleo-outline.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/scss/now-ui-dashboard/_page-header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/scss/now-ui-dashboard/_responsive.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/scss/now-ui-dashboard/_sidebar-and-main-panel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/scss/now-ui-dashboard/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/scss/now-ui-dashboard/_typography.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/scss/now-ui-dashboard/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/scss/now-ui-dashboard/cards/_card-chart.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/scss/now-ui-dashboard/cards/_card-map.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/scss/now-ui-dashboard/cards/_card-plain.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/scss/now-ui-dashboard/cards/_card-user.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/scss/now-ui-dashboard/mixins/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/scss/now-ui-dashboard/mixins/_cards.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/scss/now-ui-dashboard/mixins/_dropdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/scss/now-ui-dashboard/mixins/_inputs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/scss/now-ui-dashboard/mixins/_page-header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/scss/now-ui-dashboard/mixins/_sidebar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/scss/now-ui-dashboard/mixins/_transparency.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/scss/now-ui-dashboard/mixins/_vendor-prefixes.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/scss/now-ui-dashboard/plugins/_plugin-animate-bootstrap-notify.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/assets/scss/now-ui-dashboard/plugins/_plugin-perfect-scrollbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/css/bootstrap/_media.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/css/bootstrap/mixins/_border-radius.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/css/bootstrap/mixins/_screen-reader.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/css/bootstrap/mixins/_visibility.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/css/bootstrap/utilities/_stretched-link.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/css/now-ui-dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/css/now-ui-dashboard.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/css/now-ui-dashboard.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/fonts/nucleo-license.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/fonts/nucleo-outline.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/fonts/nucleo-outline.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/fonts/nucleo-outline.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/fonts/nucleo-outline.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/js/core/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/js/core/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/js/core/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/js/now-ui-dashboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/js/now-ui-dashboard.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/js/now-ui-dashboard.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/js/plugins/bootstrap-notify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/js/plugins/chartjs.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/js/plugins/perfect-scrollbar.jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/js/popper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/lang/en/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/lang/en/pagination.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/lang/en/passwords.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/lang/en/validation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/_badge.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/_breadcrumb.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/_button-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/_card.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/_carousel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/_close.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/_code.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/_custom-forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/_dropdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/_functions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/_images.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/_input-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/_jumbotron.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/_media.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/_modal.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/_nav.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/_navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/_popover.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/_print.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/_progress.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/_reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/_root.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/_spinners.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/_toasts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/_tooltip.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/_transitions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/_type.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/_utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/bootstrap-grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/bootstrap-reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/bootstrap.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/mixins/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/mixins/_background-variant.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/mixins/_badge.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/mixins/_border-radius.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/mixins/_box-shadow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/mixins/_breakpoints.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/mixins/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/mixins/_caret.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/mixins/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/mixins/_deprecate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/mixins/_float.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/mixins/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/mixins/_gradients.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/mixins/_grid-framework.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/mixins/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/mixins/_hover.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/mixins/_image.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/mixins/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/mixins/_lists.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/mixins/_nav-divider.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/mixins/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/mixins/_reset-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/mixins/_resize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/mixins/_screen-reader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/mixins/_size.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/mixins/_table-row.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/mixins/_text-emphasis.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/mixins/_text-hide.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/mixins/_text-truncate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/mixins/_transition.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/mixins/_visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/utilities/_align.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/utilities/_background.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/utilities/_borders.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/utilities/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/utilities/_display.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/utilities/_embed.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/utilities/_flex.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/utilities/_float.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/utilities/_overflow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/utilities/_position.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/utilities/_screenreaders.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/utilities/_shadows.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/utilities/_sizing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/utilities/_spacing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/utilities/_stretched-link.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/utilities/_text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/utilities/_visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/bootstrap/vendor/_rfs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/scss/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/views/MyOrder.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/views/admin.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/views/admin/alladmins.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/views/admin/allproduct.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/views/admin/allusers.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/views/admin/createProduct.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/views/admin/createUser.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/views/admin/dashboard.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/views/admin/productedit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/views/admin/updateUser.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/views/auth/admin/login.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/views/cartlist.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/views/detials.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/views/footer.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/views/header.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/views/header1.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/views/home.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/views/layouts/app.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/views/login.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/views/master.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/views/ordernow.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/views/product.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/views/register.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/views/search.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/resources/views/welcome.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/routes/admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/routes/api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/routes/channels.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/routes/console.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/routes/web.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/storage/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/storage/app/public/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/storage/framework/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/storage/framework/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/storage/framework/cache/data/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/storage/framework/sessions/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/storage/framework/testing/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/storage/framework/views/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/storage/logs/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/tests/CreatesApplication.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/tests/Feature/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/tests/TestCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/tests/Unit/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ecommerce-mainwith(laravel)/webpack.mix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeServiceswith(php&amp;mysql)/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeServiceswith(php&amp;mysql)/about.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeServiceswith(php&amp;mysql)/admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeServiceswith(php&amp;mysql)/booking.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeServiceswith(php&amp;mysql)/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeServiceswith(php&amp;mysql)/deletebooking.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeServiceswith(php&amp;mysql)/deletehall.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeServiceswith(php&amp;mysql)/images/5d1a3ac0472fb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeServiceswith(php&amp;mysql)/images/5d1a3b33ac916.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeServiceswith(php&amp;mysql)/images/61f04fe55e6be.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeServiceswith(php&amp;mysql)/images/61f053c91c784.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeServiceswith(php&amp;mysql)/images/demo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeServiceswith(php&amp;mysql)/include/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeServiceswith(php&amp;mysql)/include/header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeServiceswith(php&amp;mysql)/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeServiceswith(php&amp;mysql)/js/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeServiceswith(php&amp;mysql)/login.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeServiceswith(php&amp;mysql)/logout.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeServiceswith(php&amp;mysql)/managehall.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeServiceswith(php&amp;mysql)/msg/admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeServiceswith(php&amp;mysql)/msg/booking.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeServiceswith(php&amp;mysql)/msg/login.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeServiceswith(php&amp;mysql)/msg/managehall.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeServiceswith(php&amp;mysql)/msg/register.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeServiceswith(php&amp;mysql)/provider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeServiceswith(php&amp;mysql)/register.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeServiceswith(php&amp;mysql)/scripts/DB.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeServiceswith(php&amp;mysql)/scripts/bookhall.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeServiceswith(php&amp;mysql)/scripts/checklogin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeServiceswith(php&amp;mysql)/scripts/helpers.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeServiceswith(php&amp;mysql)/scripts/login.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeServiceswith(php&amp;mysql)/scripts/register.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeServiceswith(php&amp;mysql)/scripts/searchproviders.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeServiceswith(php&amp;mysql)/scripts/session.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeServiceswith(php&amp;mysql)/scripts/updatehall.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/addadvertisement.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/addcategory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/addpackage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/addsubcategory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/adduser.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/addverimages/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/addverimages/104.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/addverimages/111.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/addverimages/113.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/addverimages/115.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/addverimages/117.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/addverimages/118.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/addverimages/119.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/addverimages/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/addverimages/120.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/addverimages/123.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/addverimages/124.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/addverimages/125.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/addverimages/126.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/addverimages/127.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/addverimages/128.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/addverimages/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/addverimages/15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/addverimages/18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/addverimages/2333.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/addverimages/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/addverimages/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/addverimages/73.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/addverimages/Lighthouse.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/addverimages/bag.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/addverimages/bag2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/addverimages/img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/addverimages/wall1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/addverimages/wall10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/addverimages/wall11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/addverimages/wall19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/addverimages/wall2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/addverimages/wall21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/addverimages/wall24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/addverimages/wall5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/addverimages/wall8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/adminpics/ert.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/adminpics/fg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/adminpics/gggh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/adminpics/lo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/bottom.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/chstatus.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/deleteadvertisement.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/deletecategory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/deletepackage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/deletesubcategory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/deleteuser.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/form.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/function.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/gggh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/left.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/loginform.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/logout.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/100.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/101.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/102.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/106.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/107.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/108.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/109.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/110.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/111.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/112.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/113.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/114.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/129.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/130.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/131.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/33.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/40.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/43.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/46.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/47.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/48.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/49.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/51.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/52.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/53.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/54.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/55.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/56.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/57.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/58.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/59.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/60.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/61.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/62.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/63.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/64.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/65.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/66.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/67.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/68.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/69.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/70.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/72.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/73.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/75.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/76.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/77.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/81.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/82.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/83.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/84.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/85.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/86.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/87.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/88.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/89.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/93.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/94.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/96.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/97.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/98.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/99.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/Desert.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/Hydrangeas - Copy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/bag3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/bag4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/bag6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/bag9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/girl9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/img3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/suit.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/wall10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/wall11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/wall16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/wall17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/wall22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/wall23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/wall26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/wall28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/wall29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/wall3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/wall4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/wall5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/wall6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/wall7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/wall9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/wes2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/wes8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/packimages/wes9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/subcatimages/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/subcatimages/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/subcatimages/103.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/subcatimages/104.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/subcatimages/105.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/subcatimages/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/subcatimages/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/subcatimages/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/subcatimages/131.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/subcatimages/14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/subcatimages/15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/subcatimages/16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/subcatimages/17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/subcatimages/18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/subcatimages/19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/subcatimages/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/subcatimages/20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/subcatimages/21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/subcatimages/22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/subcatimages/23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/subcatimages/25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/subcatimages/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/subcatimages/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/subcatimages/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/subcatimages/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/subcatimages/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/subcatimages/71.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/subcatimages/74.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/subcatimages/78.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/subcatimages/79.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/subcatimages/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/subcatimages/80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/subcatimages/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/subcatimages/90.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/subcatimages/91.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/subcatimages/92.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/subcatimages/Koala - Copy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/subcatimages/a3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/subcatimages/bag2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/subcatimages/dg1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/subcatimages/fashion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/subcatimages/gown.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/subcatimages/suit.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/subcatimages/suit1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/subcatimages/wall13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/subcatimages/wall18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/subcatimages/wall26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/subcatimages/wall27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/top.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/topforlogin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/updatecategory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/updatepackage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/updatesubcategory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/updateuser.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/viewadvertisement.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/viewcategory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/viewenquiry.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/viewpackage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/Admin/viewsubcategory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/aboutus.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/add.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/bottom.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/category.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/css/owl.carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/database/travel.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/detail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/enquiry.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/function.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/24.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/73.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/79.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/about-icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/about-img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/arow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/as.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/beach2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/beach3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/beach4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/client-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/contac.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/contact-img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/dots1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/dots2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/face.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/fotter-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/guide-icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/guide-icons2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/guide.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/locater.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/mail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/100.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/101.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/102.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/103.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/104.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/105.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/106.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/107.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/108.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/109.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/110.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/111.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/112.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/113.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/114.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/115.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/116.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/117.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/118.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/119.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/120.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/121.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/122.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/123.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/124.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/125.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/126.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/127.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/128.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/129.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/130.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/131.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/33.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/40.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/43.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/46.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/47.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/48.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/49.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/51.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/52.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/53.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/54.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/55.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/56.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/57.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/58.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/59.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/60.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/61.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/62.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/63.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/64.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/65.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/66.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/67.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/68.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/69.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/70.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/71.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/72.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/73.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/74.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/75.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/76.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/77.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/78.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/79.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/81.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/82.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/83.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/84.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/85.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/86.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/87.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/88.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/89.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/90.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/91.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/92.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/93.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/94.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/96.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/97.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/98.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/projectpics/99.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/sl1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/sl2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/sl3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/sl4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/slide.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/social-icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/submit.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/submit2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/t1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/t2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/t3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/t4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/t5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/t6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/t7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/t8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/images/ttttt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/js/easing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/js/jquery.mixitup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/js/jquery.nav.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/js/jquery.scrollTo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/js/move-top.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/js/owl.carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/js/responsiveslides.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/js/wow.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/package.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/report/tour &amp; travel report.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/report/tour &amp; travel report.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/slider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/stylecss.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/subcat.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Travelwith(native php)/top.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/401.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/Articales/create.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/Articales/delete.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/Articales/edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/Articales/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/Articales/uploads/10709288961640075834.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/Articales/uploads/12826159801639990010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/Articales/uploads/13078914521640073474.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/Articales/uploads/14486351571640003269.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/Articales/uploads/18038320171640071050.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/Articales/uploads/2833186361640073189.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/Articales/uploads/4367561971640002953.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/Articales/uploads/5877865551640076246.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/Articales/uploads/66577321640076160.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/Articales/uploads/8899166901639991951.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/Category/create.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/Category/delete.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/Category/edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/Category/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/DB/group9blog.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/Roles/create.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/Roles/delete.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/Roles/edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/Roles/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/Users/create.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/Users/delete.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/Users/edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/Users/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/Users/uploads/12826159801639990010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/Users/uploads/6212829921640075515.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/Users/uploads/8899166901639991951.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/assets/demo/chart-area-demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/assets/demo/chart-bar-demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/assets/demo/chart-pie-demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/assets/demo/datatables-demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/assets/img/error-404-monochrome.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/charts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/checkLogin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/helpers/dbConnection.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/helpers/functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/js/scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/layout-sidenav-light.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/layout-static.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/layouts/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/layouts/header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/layouts/nav.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/layouts/sidNav.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/login.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/logout.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/password.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/requiremnets.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogwith(laravel)/tables.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="249hFTHtXhpqsWbYcFfUoytG6KT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\projects\Hotel management\images" />
+      <recent name="C:\xampp\htdocs\projects\Hotel management\js" />
+      <recent name="C:\xampp\htdocs\projects\Hotel management\css" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="551206e9-094c-4ff3-a3bd-e9b6cd004770" name="Changes" comment="" />
+      <created>1643048631047</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643048631047</updated>
+      <workItem from="1643048640981" duration="9611000" />
+      <workItem from="1643129820901" duration="8380000" />
+      <workItem from="1643138551664" duration="332000" />
+      <workItem from="1643139261830" duration="1168000" />
+      <workItem from="1643199710694" duration="2454000" />
+      <workItem from="1643203683352" duration="2601000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
